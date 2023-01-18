@@ -5,7 +5,7 @@ library(readr)
 
 source("helpers.R")
 
-
+# Unzip the data before running this script
 tracking_dir <- "Tracking"
 
 series_dir <- list.files(tracking_dir) %>% 
